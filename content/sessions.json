@@ -45,6 +45,21 @@
     ]
   },
   {
+    "type": "Session",
+    "titel": "AI for public relations og kommunikation",
+    "billede": "",
+    "billedeFokus": "",
+    "maerke": "AI + PR",
+    "beskrivelse": "Hvad kan kunstig intelligens allerede i dag i en kommunikationsafdeling, og hvor skal mennesket stadig sidde ved rattet?",
+    "mere": [
+      "Kunstig intelligens er rykket ind i kommunikationsafdelingerne. Den skriver udkast til pressemeddelelser, holder øje med medierne, foreslår vinkler og svarer på spørgsmål fra borgere og kunder. Men hvad virker i praksis, og hvad er stadig mest løfter?",
+      "Sessionen ser på, hvordan AI ændrer arbejdet med presse, interessenter og kriser, også når pressemeddelelsens første læser er en maskine, og troværdighed bliver det vigtigste, du har at tilbyde. Du går derfra med konkrete greb, du kan bruge mandag morgen."
+    ],
+    "talereLabel": "Oplægsholdere",
+    "talere": "Annonceres snarest",
+    "personer": []
+  },
+  {
     "type": "Tema",
     "titel": "Når maskinen skriver med",
     "billede": "",
