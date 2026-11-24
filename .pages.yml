@@ -1,0 +1,403 @@
+# Pages CMS-opsætning for Copenhagen Preview
+# Dokumentation: https://pagescms.org/docs/
+
+media:
+  input: billeder
+  output: /billeder
+  categories: [image]
+
+content:
+  - name: nyheder
+    label: Nyheder
+    type: file
+    path: content/nyheder.json
+    format: json
+    list: true
+    fields:
+      - name: dato
+        label: Dato
+        type: string
+        required: true
+        description: 'Fx "4. nov. 2026". Den øverste nyhed vises stort på forsiden. Træk nyhederne for at ændre rækkefølgen.'
+      - name: tag
+        label: Kategori
+        type: select
+        options:
+          values: [Nyhed, Program, Billetter, Partnere, Ny taler]
+      - name: titel
+        label: Overskrift
+        type: string
+        required: true
+      - name: uddrag
+        label: Kort tekst
+        type: text
+        description: 'Vises altid under overskriften.'
+      - name: tekst
+        label: Læs mere-tekst
+        type: text
+        description: 'Vises, når man klikker på "Læs mere". Kan være tom.'
+
+  - name: sessions
+    label: Speakers & sessions (forsiden)
+    type: file
+    path: content/sessions.json
+    format: json
+    list: true
+    fields:
+      - name: type
+        label: Type
+        type: select
+        options:
+          values: [Session, Keynote, Debat, Workshop, Tema]
+      - name: titel
+        label: Titel
+        type: string
+        required: true
+      - name: billede
+        label: Billede
+        type: image
+        description: 'Uden billede vises en farvet flade med teksten fra feltet "Mærke".'
+      - name: billedeFokus
+        label: Billedets fokuspunkt
+        type: string
+        description: 'Hvor billedet beskæres, fx "50% 30%" (vandret, lodret). Tom = midten.'
+      - name: maerke
+        label: Mærke
+        type: string
+        description: 'Kort tekst eller tal i kassen, når der ikke er et billede, fx "72 %".'
+      - name: beskrivelse
+        label: Kort beskrivelse
+        type: text
+        description: 'Vises i kassen på forsiden. Hold den på en til to sætninger.'
+      - name: mere
+        label: Længere tekst (popup)
+        type: text
+        list: true
+        description: 'Ét felt pr. afsnit. Hold teksten kort, så popuppen passer på skærmen uden scroll.'
+      - name: talereLabel
+        label: Overskrift over talere
+        type: string
+        description: 'Fx "Oplægsholdere" eller "Taler".'
+      - name: talere
+        label: Talere (kort linje)
+        type: string
+        description: 'Fx "Cyrus Ferguson og Brooke Brazer. Vært: Milan Ganesan".'
+      - name: personer
+        label: Personer (klikbare i popuppen)
+        type: object
+        list: true
+        fields:
+          - name: navn
+            label: Navn
+            type: string
+            required: true
+          - name: rolle
+            label: Rolle
+            type: select
+            options:
+              values: [Speaker, Sessionvært, Moderator]
+          - name: billede
+            label: Billede
+            type: image
+          - name: billedeFokus
+            label: Billedets fokuspunkt
+            type: string
+            description: 'Fx "50% 25%". Tom = midten.'
+          - name: bio
+            label: Bio
+            type: text
+            list: true
+            description: 'Ét felt pr. afsnit.'
+
+  - name: program
+    label: Program
+    type: file
+    path: content/program.json
+    format: json
+    list: true
+    fields:
+      - name: start
+        label: Tidspunkt
+        type: string
+        required: true
+        description: 'Fx "9.30" eller "Formiddag".'
+      - name: type
+        label: Type
+        type: select
+        description: 'Pause, Netværk og Afslutning uden beskrivelse vises som smalle rækker.'
+        options:
+          values: [Åbning, Keynote, Debat, Oplæg, Workshop, Det store billede, Praksis, Pause, Netværk, Afslutning]
+      - name: titel
+        label: Titel
+        type: string
+        required: true
+      - name: beskrivelse
+        label: Kort beskrivelse
+        type: text
+      - name: mere
+        label: Længere tekst (popup)
+        type: text
+        list: true
+      - name: billede
+        label: Billede
+        type: image
+      - name: maerke
+        label: Mærke
+        type: string
+        description: 'Tekst i kassen, når der ikke er et billede.'
+      - name: talereLabel
+        label: Overskrift over talere
+        type: string
+      - name: talere
+        label: Talere
+        type: string
+
+  - name: billetter
+    label: Billetter
+    type: file
+    path: content/billetter.json
+    format: json
+    list: true
+    fields:
+      - name: navn
+        label: Navn
+        type: string
+        required: true
+      - name: pris
+        label: Pris i kr.
+        type: number
+        options:
+          min: 0
+      - name: enhed
+        label: Tekst under prisen
+        type: string
+        description: 'Fx "pr. person".'
+      - name: stempel
+        label: Lille mærkat
+        type: string
+        description: 'Fx "under 30 år". Kan være tom.'
+      - name: beskrivelse
+        label: Beskrivelse
+        type: text
+      - name: inkluderer
+        label: Inkluderer
+        type: string
+        list: true
+      - name: status
+        label: Status
+        type: select
+        options:
+          values:
+            - name: salg
+              label: På salg
+            - name: snart
+              label: Kommer snart
+            - name: udsolgt
+              label: Udsolgt
+      - name: fremhaevet
+        label: Fremhæv billetten
+        type: boolean
+      - name: url
+        label: Eget købslink
+        type: string
+        description: 'Tom = linket til Ticket Tailor fra Indstillinger.'
+
+  - name: billetinfo
+    label: Billetside – info
+    type: file
+    path: content/billetinfo.json
+    format: json
+    fields:
+      - name: inkluderet
+        label: Det er inkluderet
+        type: object
+        list: true
+        fields:
+          - name: titel
+            type: string
+          - name: tekst
+            type: text
+      - name: praktisk
+        label: Praktisk
+        type: object
+        list: true
+        fields:
+          - name: titel
+            type: string
+          - name: tekst
+            type: text
+          - name: link
+            label: Link
+            type: string
+          - name: linkTekst
+            label: Linktekst
+            type: string
+
+  - name: sponsorer
+    label: Sponsorer
+    type: file
+    path: content/sponsorer.json
+    format: json
+    list: true
+    fields:
+      - name: navn
+        label: Niveau
+        type: string
+        description: 'Fx "Støttegivere og samarbejdspartnere" eller "Hovedsponsor".'
+      - name: pladser
+        label: Antal pladser
+        type: number
+        description: 'Ubrugte pladser vises som "Ledig plads".'
+        options:
+          min: 0
+      - name: sponsorer
+        label: Sponsorer
+        type: object
+        list: true
+        fields:
+          - name: navn
+            label: Navn
+            type: string
+            required: true
+          - name: logo
+            label: Logo
+            type: image
+            description: 'Uden logo vises navnet.'
+          - name: url
+            label: Link
+            type: string
+
+  - name: om
+    label: Om-siden
+    type: file
+    path: content/om.json
+    format: json
+    fields:
+      - name: indledning
+        label: Konferencen (afsnit)
+        type: text
+        list: true
+      - name: frem
+        label: Vi kigger frem, ikke tilbage (afsnit)
+        type: text
+        list: true
+      - name: principper
+        label: Principper (vises også på forsiden)
+        type: object
+        list: true
+        fields:
+          - name: titel
+            type: string
+          - name: tekst
+            type: text
+      - name: maalgruppe
+        label: Målgruppe
+        type: string
+        list: true
+      - name: hold
+        label: Holdet
+        type: object
+        list: true
+        fields:
+          - name: navn
+            type: string
+          - name: rolle
+            type: string
+          - name: tekst
+            type: text
+          - name: foto
+            label: Foto
+            type: image
+          - name: url
+            label: Link
+            type: string
+      - name: samarbejde
+        label: I samarbejde med (afsnit)
+        type: text
+        list: true
+      - name: kontakt
+        label: Kontakt
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: Overskrift
+            type: string
+          - name: tekst
+            type: text
+          - name: visEmail
+            label: Vis mailadresse
+            type: boolean
+          - name: visTelefon
+            label: Vis telefonnummer
+            type: boolean
+          - name: link
+            type: string
+          - name: linkTekst
+            label: Linktekst
+            type: string
+
+  - name: indstillinger
+    label: Indstillinger
+    type: file
+    path: content/indstillinger.json
+    format: json
+    fields:
+      - name: navn
+        label: Konferencens navn
+        type: string
+      - name: tema
+        label: Overskrift på forsiden
+        type: string
+      - name: temaFremhaev
+        label: Ord i overskriften med rød kursiv
+        type: string
+        description: 'Skal stå præcis som i overskriften, fx "tiden". Tom = intet fremhævet.'
+      - name: dek
+        label: Tekst under overskriften
+        type: text
+      - name: datoLang
+        label: Dato (lang)
+        type: string
+      - name: datoKort
+        label: Dato (kort)
+        type: string
+      - name: tid
+        label: Tidspunkt
+        type: string
+      - name: sted
+        label: Sted
+        type: string
+      - name: stedDetalje
+        label: Adresse
+        type: string
+      - name: kontaktEmail
+        label: Kontaktmail
+        type: string
+      - name: kontaktTelefon
+        label: Telefon
+        type: string
+      - name: kontaktPerson
+        label: Kontaktperson
+        type: string
+      - name: ticketTailorUrl
+        label: Ticket Tailor – købslink
+        type: string
+      - name: ticketTailorAdministrer
+        label: Ticket Tailor – administrér billet
+        type: string
+      - name: nyhedsbrevUrl
+        label: Link til nyhedsbrev
+        type: string
+      - name: sosterSite
+        label: Link til copenhagen review of communication
+        type: string
+      - name: sessionsNote
+        label: Tekst over Speakers & sessions
+        type: text
+      - name: programNote
+        label: Tekst øverst på programsiden
+        type: text
+      - name: sponsorTekst
+        label: 'Tekst i "Bliv samarbejdspartner"'
+        type: text

@@ -1,0 +1,32 @@
+[
+  {
+    "navn": "Standardbillet",
+    "pris": 595,
+    "enhed": "pr. person",
+    "stempel": "",
+    "beskrivelse": "Billetten er inklusiv kaffe og frokost.",
+    "inkluderer": [
+      "Hele dagen på Nørrebro Teater",
+      "Kaffe og frokost",
+      "Lidt sødt om eftermiddagen"
+    ],
+    "status": "salg",
+    "fremhaevet": true,
+    "url": ""
+  },
+  {
+    "navn": "Ungdomsbillet",
+    "pris": 295,
+    "enhed": "pr. person",
+    "stempel": "under 30 år",
+    "beskrivelse": "Ungdomsbilletten er til dig, der er under 30 år. Billetten er inklusiv kaffe og frokost.",
+    "inkluderer": [
+      "Hele dagen på Nørrebro Teater",
+      "Kaffe og frokost",
+      "Lidt sødt om eftermiddagen"
+    ],
+    "status": "salg",
+    "fremhaevet": false,
+    "url": ""
+  }
+]

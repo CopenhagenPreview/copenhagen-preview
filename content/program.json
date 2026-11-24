@@ -1,0 +1,76 @@
+[
+  {
+    "start": "9.00",
+    "type": "Netværk",
+    "titel": "Dørene åbner",
+    "beskrivelse": "",
+    "mere": [],
+    "maerke": "",
+    "billede": "",
+    "talereLabel": "",
+    "talere": ""
+  },
+  {
+    "start": "9.30",
+    "type": "Åbning",
+    "titel": "Et preview af året",
+    "beskrivelse": "Vi åbner med previewet: hvad året byder på, og hvad der endnu ikke er en trend, men bliver det.",
+    "mere": [
+      "Vi åbner med previewet: hvad året byder på, og hvad der endnu ikke er en trend, men bliver det.",
+      "Ikke en forudsigelse, for de rammer sjældent. Et forsøg på at se det, der allerede er her, mens det stadig er her."
+    ],
+    "maerke": "Preview",
+    "billede": "",
+    "talereLabel": "Oplægsholdere",
+    "talere": "Annonceres i slutningen af november"
+  },
+  {
+    "start": "Formiddag",
+    "type": "Det store billede",
+    "titel": "Fra det store billede til konkrete historier",
+    "beskrivelse": "Om formiddagen går vi gennem konkrete historier fra det store billede.",
+    "mere": [
+      "Om formiddagen går vi gennem konkrete historier fra det store billede: de internationale forskydninger i medier og kommunikation, oversat til danske vilkår."
+    ],
+    "maerke": "Formiddag",
+    "billede": "",
+    "talereLabel": "Oplægsholdere",
+    "talere": "Annonceres i slutningen af november"
+  },
+  {
+    "start": "Middag",
+    "type": "Pause",
+    "titel": "Frokost",
+    "beskrivelse": "",
+    "mere": [],
+    "maerke": "",
+    "billede": "",
+    "talereLabel": "",
+    "talere": ""
+  },
+  {
+    "start": "Eftermiddag",
+    "type": "Praksis",
+    "titel": "Praksis og værktøjer",
+    "beskrivelse": "Om eftermiddagen handler det om praksis og værktøjer, der slutter et sted, du kan bruge mandag morgen.",
+    "mere": [
+      "Om eftermiddagen handler det om praksis og værktøjer.",
+      "Hver session sætter teori op mod praksis og slutter et sted, du kan bruge mandag morgen."
+    ],
+    "maerke": "Eftermiddag",
+    "billede": "",
+    "talereLabel": "Oplægsholdere",
+    "talere": "Annonceres i slutningen af november"
+  },
+  {
+    "start": "16.30",
+    "type": "Afslutning",
+    "titel": "Tak for i dag",
+    "beskrivelse": "",
+    "mere": [],
+    "maerke": "",
+    "billede": "",
+    "talereLabel": "",
+    "talere": ""
+  }
+]

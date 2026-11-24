@@ -1,0 +1,137 @@
+[
+  {
+    "type": "Session",
+    "titel": "Historien bag brand storytelling: Hvad Roomies kan lære os",
+    "billede": "/billeder/roomies.jpg",
+    "billedeFokus": "50% 38%",
+    "maerke": "",
+    "beskrivelse": "Hvad sker der, når et brand bevæger sig ud over traditionel markedsføring og skaber sin egen originale underholdning?",
+    "mere": [
+      "Hvad sker der, når et brand bevæger sig ud over traditionel markedsføring og skaber sin egen originale underholdning? Showrunnerne Cyrus Ferguson og Brooke Brazer tager os med bag kulisserne på Bilts vertikale sociale sitcom Roomies. De fortæller om tankerne, den kreative proces og produktionen bag serien, og om hvorfor et brand nogle gange gør det stærkeste indtryk ved at træde i baggrunden.",
+      "De deler deres erfaringer med, hvordan brands og organisationer kan bruge vertikal fortælling til at skabe forbindelse til deres publikum. Derefter ser vi på en nordisk udgave af formatet med den danske manuskriptforfatter og instruktør Milan Ganesan, der har skabt GLAZE, Danmarks første mikrodrama."
+    ],
+    "talereLabel": "Oplægsholdere",
+    "talere": "Cyrus Ferguson og Brooke Brazer. Vært: Milan Ganesan",
+    "personer": [
+      {
+        "navn": "Cyrus Ferguson",
+        "rolle": "Speaker",
+        "billede": "/billeder/cyrus.jpg",
+        "billedeFokus": "50% 28%",
+        "bio": [
+          "Cyrus Ferguson er forfatter, instruktør og indholdsstrateg med base i New York. Han har stået i spidsen for kreative teams i en række startups og er i dag senior content director hos Bilt, det første loyalitetsprogram for lejere i USA.",
+          "Han er medskaber af Roomies, en viral komedieserie i kortformat på Instagram og TikTok, produceret af Bilt, som blandt andre Business Insider har kaldt »faktisk sjov«."
+        ]
+      },
+      {
+        "navn": "Brooke Brazer",
+        "rolle": "Speaker",
+        "billede": "/billeder/brooke.jpg",
+        "billedeFokus": "50% 22%",
+        "bio": [
+          "Brooke Brazer er skuespiller, forfatter, producer og instruktør med base i New York. Hun er co-showrunner på og medvirker i den prisvindende komedieserie i kortformat Roomies.",
+          "Hun er desuden fortaler for kvinder med endometriose og bruger fortællingen til at skabe empati, opmærksomhed og fællesskab. Hendes arbejde ligger i krydsfeltet mellem humor og menneskelighed og udforsker identitet, tilhørsforhold og sygdom gennem sårbarhed og absurditet."
+        ]
+      },
+      {
+        "navn": "Milan Ganesan",
+        "rolle": "Sessionvært",
+        "billede": "/billeder/milan.jpg",
+        "billedeFokus": "68% 35%",
+        "bio": [
+          "Milan er instruktør og tilrettelægger, der bygger bro mellem journalistisk research og stærk fiktionsfortælling. Han har bl.a. instrueret TV-serien Familier i Norden og skabt mikrodramaet Glaze, og han brænder for nye digitale fortælleformer, der fanger publikum fra første sekund."
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Tema",
+    "titel": "Når maskinen skriver med",
+    "billede": "",
+    "billedeFokus": "",
+    "maerke": "50 %",
+    "beskrivelse": "Omkring halvdelen af de engelsksprogede artikler på nettet er nu skrevet af AI. Hvad betyder det for dem, der lever af at skrive?",
+    "mere": [
+      "Omkring halvdelen af de engelsksprogede artikler på nettet er i dag genereret af AI. Det er ikke en teknologinyhed. Det er en beskrivelse af det marked, journalister og kommunikatører arbejder på.",
+      "Hvad sker der med troværdighed, afsender og læserens tillid, når en stor del af teksten omkring os er skrevet af maskiner?"
+    ],
+    "talereLabel": "Oplægsholdere",
+    "talere": "Annonceres i slutningen af november",
+    "personer": []
+  },
+  {
+    "type": "Tema",
+    "titel": "Platformene flytter publikum",
+    "billede": "",
+    "billedeFokus": "",
+    "maerke": "44 %",
+    "beskrivelse": "YouTube er den mest brugte podcastplatform i USA. Globale platforme afgør i stigende grad, hvad borgerne får adgang til.",
+    "mere": [
+      "I USA er YouTube den mest brugte podcastplatform med 44 procent, mens Spotify står på 14 procent. Lyd er blevet video, og publikum følger platformen.",
+      "Globale platforme afgør i stigende grad, hvilke nyheder, hvilken viden og hvilken kultur borgerne møder. Hvad betyder det for danske medier og institutioner?"
+    ],
+    "talereLabel": "Oplægsholdere",
+    "talere": "Annonceres i slutningen af november",
+    "personer": []
+  },
+  {
+    "type": "Tema",
+    "titel": "Unge og chatbots",
+    "billede": "",
+    "billedeFokus": "",
+    "maerke": "72 %",
+    "beskrivelse": "72 procent af amerikanske teenagere har brugt AI-chatbots til personlige samtaler. Også i Danmark taler unge med maskinerne.",
+    "mere": [
+      "72 procent af amerikanske teenagere har brugt AI-chatbots til personlige samtaler. Et studie fra Aarhus Universitet viser, at 14,6 procent af danske unge har haft venneagtige samtaler med en chatbot.",
+      "Forskellen mellem USA og Danmark er ikke et fripas. Den er et forspring, vi kan bruge."
+    ],
+    "talereLabel": "Oplægsholdere",
+    "talere": "Annonceres i slutningen af november",
+    "personer": []
+  },
+  {
+    "type": "Tema",
+    "titel": "AI og klimakrisen",
+    "billede": "",
+    "billedeFokus": "",
+    "maerke": "AI + klima",
+    "beskrivelse": "AI og klimakrisen kræver fælles beslutninger af en størrelse, demokratierne aldrig har stået over for.",
+    "mere": [
+      "AI og klimakrisen kræver fælles beslutninger af en størrelse, demokratierne aldrig har stået over for.",
+      "Hvordan kommunikerer man om forandringer, der er så store, at de er svære at få øje på i hverdagen?"
+    ],
+    "talereLabel": "Oplægsholdere",
+    "talere": "Annonceres i slutningen af november",
+    "personer": []
+  },
+  {
+    "type": "Tema",
+    "titel": "Autokrati og dyrket mistillid",
+    "billede": "",
+    "billedeFokus": "",
+    "maerke": "Tillid",
+    "beskrivelse": "Mistillid dyrkes og udnyttes digitalt af aktører, der ved præcis, hvor samfundets revner går.",
+    "mere": [
+      "Autokratierne vinder frem, og mistillid dyrkes og udnyttes digitalt af aktører, der ved præcis, hvor samfundets revner går.",
+      "Hvilken rolle skal journalister, kommunikatører og kunstnere spille, når andre ikke spiller efter reglerne? Og hvad kan vi konkret gøre?"
+    ],
+    "talereLabel": "Oplægsholdere",
+    "talere": "Annonceres i slutningen af november",
+    "personer": []
+  },
+  {
+    "type": "Tema",
+    "titel": "Medier som demokratisk infrastruktur",
+    "billede": "",
+    "billedeFokus": "",
+    "maerke": "Demokrati",
+    "beskrivelse": "Medier og institutioner er den infrastruktur, en demokratisk samtale hviler på.",
+    "mere": [
+      "Medier og institutioner er den infrastruktur, en demokratisk samtale hviler på, og få globale platforme afgør i stigende grad, hvad borgerne får adgang til.",
+      "Problemet er ikke adgangen til tallene. Problemet er, at vi læser dem som nyheder om teknologi i stedet for som beskrivelser af vores eget marked, og af de vilkår, borgerne får adgang til viden, nyheder og kultur under."
+    ],
+    "talereLabel": "Oplægsholdere",
+    "talere": "Annonceres i slutningen af november",
+    "personer": []
+  }
+]

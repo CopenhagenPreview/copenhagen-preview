@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Om · Copenhagen Preview</title>
+<meta name="description" content="Om Copenhagen Preview og holdet bag konferencen.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="masthead masthead--small"><div class="wrap">
+  <a class="logo" href="index.html"><img src="logo.png" alt="Copenhagen Preview" width="1600" height="209"></a>
+  <div class="issue mono"><strong data-konf="datoKort"></strong><span data-konf="sted"></span></div>
+</div></header>
+<nav class="mainnav mono" aria-label="Hovedmenu"><div class="wrap"><ul>
+  <li><a href="index.html">Forside</a></li>
+  <li><a href="program.html">Program</a></li>
+  <li><a href="billetter.html">Billetter</a></li>
+  <li><a href="index.html#nyheder">Nyheder</a></li>
+  <li><a href="index.html#sponsorer">Sponsorer</a></li>
+  <li><a href="om.html" aria-current="page">Om</a></li>
+  <li class="nav-cta"><a href="billetter.html">Køb billet →</a></li>
+</ul></div></nav>
+<main>
+<section class="section"><div class="wrap">
+  <div class="about">
+    <div class="about-label"><span class="mono red">Konferencen</span><h2>Copenhagen Preview 2027</h2></div>
+    <div class="about-text" id="om-indledning"></div>
+  </div>
+  <dl class="about-venue">
+    <div><dt class="mono">Hvornår</dt><dd><span data-konf="datoLang"></span><br><span data-konf="tid"></span></dd></div>
+    <div><dt class="mono">Hvor</dt><dd><span data-konf="sted"></span><br><span data-konf="stedDetalje"></span></dd></div>
+    <div><dt class="mono">Hvem</dt><dd>Over 300 fagfolk fra medier og kommunikation</dd></div>
+  </dl>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="about">
+    <div class="about-label"><span class="mono red">Hvorfor en preview?</span><h2>Vi kigger frem, ikke tilbage</h2></div>
+    <div class="about-text about-text--plain" id="om-frem"></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="section-head">
+    <div><span class="mono label">Format</span><h2>Sådan er dagen skruet sammen</h2></div>
+  </div>
+  <div class="principles" id="om-principper"></div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="about">
+    <div class="about-label"><span class="mono red">Målgruppe</span><h2>Til dig, der arbejder med den offentlige samtale</h2></div>
+    <ul class="audience" id="om-maalgruppe"></ul>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="section-head">
+    <div><span class="mono label">Holdet</span><h2>Vi står bag</h2></div>
+  </div>
+  <div class="speakers team" id="om-hold"></div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="section-head">
+    <div><span class="mono label">I samarbejde med</span><h2>copenhagen review of communication</h2></div>
+    <a class="link-arrow" data-soster href="https://www.copenhagen-review-of-communication.com/">Besøg mediet →</a>
+  </div>
+  <div class="about">
+    <div class="about-label"></div>
+    <div class="about-text about-text--plain" id="om-arrangoer"></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="section-head">
+    <div><span class="mono label">Kontakt</span><h2>Skriv til os</h2></div>
+  </div>
+  <div class="contacts" id="om-kontakt"></div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap">
+  <div><a class="logo" href="index.html"><img src="logo.png" alt="Copenhagen Preview" width="1600" height="209"></a></div>
+  <div><h4>Copenhagen Preview</h4><ul><li><a href="program.html">Program</a></li><li><a href="billetter.html">Billetter</a></li><li><a href="index.html#nyheder">Nyheder</a></li><li><a href="index.html#sponsorer">Sponsorer</a></li><li><a href="om.html">Om</a></li><li><a data-nyhedsbrev href="#">Nyhedsbrev</a></li></ul></div>
+  <div><h4>Sted og kontakt</h4><ul><li data-konf="sted"></li><li data-konf="stedDetalje"></li><li><a class="email" data-mail href="#"></a></li></ul></div>
+  <div><h4>I samarbejde med</h4><ul><li><a data-soster href="https://www.copenhagen-review-of-communication.com/">copenhagen review of communication</a></li></ul></div>
+</div>
+<div class="footer-bottom mono"><div class="wrap"><span>© <span id="year">2026</span> Copenhagen Preview</span><span>Billetsalg via Ticket Tailor</span></div></div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>

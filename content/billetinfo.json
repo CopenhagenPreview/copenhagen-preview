@@ -1,0 +1,40 @@
+{
+  "inkluderet": [
+    {
+      "titel": "Hele dagen",
+      "tekst": "Billetten giver adgang til hele Copenhagen Preview 2027 på Nørrebro Teater, kl. 9.30–16.30. Dørene åbner kl. 9.00."
+    },
+    {
+      "titel": "Ungdomsbillet",
+      "tekst": "Ungdomsbilletten er til dig, der er under 30 år, og giver adgang til hele dagen ligesom standardbilletten."
+    },
+    {
+      "titel": "Forplejning",
+      "tekst": "Billetten inkluderer kaffe, frokost og lidt sødt om eftermiddagen."
+    },
+    {
+      "titel": "Efter konferencen",
+      "tekst": "Analyser, artikler og optagelser fra dagen bliver publiceret på copenhagen review of communication."
+    }
+  ],
+  "praktisk": [
+    {
+      "titel": "Sådan kommer du frem",
+      "tekst": "Nørrebro Teater ligger på Ravnsborggade 3, 2200 København N, tæt ved Søerne. Bus 1A, 5C og 350S stopper lige uden for teatret, og der er cykelparkering på den anden side af gaden.",
+      "link": "",
+      "linkTekst": ""
+    },
+    {
+      "titel": "Har du allerede købt?",
+      "tekst": "Du kan se og administrere din billet hos Ticket Tailor.",
+      "link": "https://www.tickettailor.com/self-service/copenhagenpreview",
+      "linkTekst": "Gå til dine billetter →"
+    },
+    {
+      "titel": "Spørgsmål",
+      "tekst": "Skriv til os på preview@copencom.dk, så vender vi tilbage.",
+      "link": "",
+      "linkTekst": ""
+    }
+  ]
+}

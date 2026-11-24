@@ -1,0 +1,23 @@
+[
+  {
+    "navn": "Støttegivere og samarbejdspartnere",
+    "pladser": 3,
+    "sponsorer": [
+      {
+        "navn": "DM",
+        "logo": "",
+        "url": ""
+      },
+      {
+        "navn": "Politiken-Fonden",
+        "logo": "",
+        "url": ""
+      },
+      {
+        "navn": "Nørrebro Teater",
+        "logo": "",
+        "url": "https://www.nbt.dk/"
+      }
+    ]
+  }
+]

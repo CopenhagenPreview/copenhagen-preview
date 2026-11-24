@@ -1,0 +1,95 @@
+{
+  "indledning": [
+    "Den 11. marts 2027 samler vi 300+ fagfolk fra medier og kommunikationsbranchen på Nørrebro Teater i København til en heldagskonference, der oversætter de internationale forskydninger i medier og kommunikation til danske vilkår.",
+    "Ingen leverandører på scenen. Ingen paneler, hvor fire mennesker er enige. En redaktionelt kurateret dag, hvor hver session sætter teori op mod praksis og slutter et sted, du kan bruge mandag morgen."
+  ],
+  "frem": [
+    "Vi ser nutiden gennem et bakspejl, sagde McLuhan. Vi marcherer baglæns ind i fremtiden.",
+    "Sådan er branchen bygget. Vi laver reviews. Vi analyserer det, der er sket, med en præcision, der først bliver mulig, når det er for sent at handle på den. Mediet, der er afsender her, hedder endda Copenhagen Review of Communication.",
+    "Et preview er den modsatte bevægelse. Ikke en forudsigelse, for de rammer sjældent. Et forsøg på at se det, der allerede er her, mens det stadig er her.",
+    "For hvert år lægger branchen budget for et år, den ikke kan se. I marts går det op for os, at det afgørende skete i november.",
+    "Tallene er ikke hemmelige. Omkring halvdelen af alle engelsksprogede artikler på nettet er i dag AI-genereret. YouTube er den mest brugte podcastplatform i USA med 44 procent, mod Spotifys 14. Og i USA har 72 procent af teenagere brugt AI-chatbots til personlige samtaler, mens et dansk studie fra Aarhus Universitet finder, at 14,6 procent af unge har haft venneagtige samtaler med en chatbot. Forskellen er ikke et fripas. Den er et forspring, vi kan bruge.",
+    "Problemet er ikke adgangen til tallene. Problemet er, at vi læser dem som nyheder om teknologi i stedet for som beskrivelser af vores eget marked, og af de vilkår, borgerne får adgang til viden, nyheder og kultur under.",
+    "AI og klimakrisen kræver fælles beslutninger af en størrelse, demokratierne aldrig har stået over for. Samtidig vinder autokratierne frem, og mistillid dyrkes og udnyttes digitalt af aktører, der ved præcis, hvor samfundets revner går. Hvilken rolle skal journalister, kommunikatører og kunstnere spille, når andre ikke spiller efter reglerne? Og hvad kan vi konkret gøre?",
+    "Medier og institutioner er den infrastruktur, en demokratisk samtale hviler på, og få globale platforme afgør i stigende grad, hvad borgerne får adgang til. Copenhagen Preview 2027 er bygget til at lukke hullet mellem november og marts."
+  ],
+  "principper": [
+    {
+      "titel": "Ingen leverandører på scenen",
+      "tekst": "Scenen er til indsigt, ikke til salg."
+    },
+    {
+      "titel": "Ingen paneler, hvor fire mennesker er enige",
+      "tekst": "Vi sætter folk sammen, der har noget at tale om."
+    },
+    {
+      "titel": "Redaktionelt kurateret",
+      "tekst": "Programmet sammensættes med både medierne og kommunikationsbranchen for øje."
+    },
+    {
+      "titel": "Noget du kan bruge mandag morgen",
+      "tekst": "Hver session sætter teori op mod praksis."
+    }
+  ],
+  "maalgruppe": [
+    "Journalister, redaktører og redaktionelle ledere",
+    "Forskere og undervisere i kommunikation og medievidenskab",
+    "Formidlere og kommunikationsansvarlige på museer, forlag, biblioteker, arkiver og festivaler",
+    "Beslutningstagere i medie- og kulturinstitutioner",
+    "Mediestrateger, producenter og indholdsskabere",
+    "Alle, der arbejder med vilkårene for den offentlige samtale"
+  ],
+  "hold": [
+    {
+      "navn": "Timme Bisgaard Munk",
+      "rolle": "Ph.d. og kommunikationsanalytiker",
+      "tekst": "Research fellow ved SDU Center for Digital Democracy og udgiver af Copenhagen Review of Communication. Tidligere medstifter, direktør og redaktør af Kforum og rådgiver for blandt andre Dansk Erhverv, Kræftens Bekæmpelse og DM.",
+      "foto": "",
+      "url": "https://www.copenhagen-review-of-communication.com/"
+    },
+    {
+      "navn": "Felicia Elisabeth Jackson",
+      "rolle": "Kommunikations- og medierådgiver",
+      "tekst": "Baggrund i medie- og kulturbranchen, blandt andet DR, Copenhagen TV Festival, CPH Transform og THIS – Future of Media & Content. Kontaktperson for samarbejdspartnere.",
+      "foto": "",
+      "url": "https://feliciajackson.dk/"
+    },
+    {
+      "navn": "Sidse Stausholm",
+      "rolle": "Medierådgiver",
+      "tekst": "Erfaring med strategiudvikling, organisationsudvikling og produktudvikling.",
+      "foto": "",
+      "url": "https://redapt.dk/home/sidse-stausholm"
+    }
+  ],
+  "samarbejde": [
+    "Copenhagen Preview laves i samarbejde med copenhagen review of communication, et medie for alle, der er optaget af kommunikation.",
+    "Efter konferencen bliver analyser, artikler og optagelser fra dagen publiceret på copenhagen review of communication."
+  ],
+  "kontakt": [
+    {
+      "label": "Spørgsmål om konferencen",
+      "tekst": "Skriv til os, så vender vi tilbage.",
+      "visEmail": true,
+      "visTelefon": false,
+      "link": "",
+      "linkTekst": ""
+    },
+    {
+      "label": "Samarbejdspartnere og støttegivere",
+      "tekst": "Kontakt Felicia Elisabeth Jackson.",
+      "visEmail": true,
+      "visTelefon": true,
+      "link": "",
+      "linkTekst": ""
+    },
+    {
+      "label": "Din billet",
+      "tekst": "Se, ret eller hent din billet hos Ticket Tailor.",
+      "visEmail": false,
+      "visTelefon": false,
+      "link": "https://www.tickettailor.com/self-service/copenhagenpreview",
+      "linkTekst": "Administrér din billet →"
+    }
+  ]
+}
