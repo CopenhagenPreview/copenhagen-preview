@@ -143,7 +143,7 @@
       var people = "";
       var personer = list(p.personer);
       if (personer.length) {
-        people = '<div class="modal-speaker"><span class="mono">Mød oplægsholderne</span><div class="people">' +
+        people = '<div class="modal-speaker"><span class="mono">' + (personer.length === 1 ? "Mød oplægsholderen" : "Mød oplægsholderne") + "</span>" + '<div class="people">' +
           personer.map(function (x, i) {
             var pic = x.billede ? imgTag(x.billede, x.billedeFokus) : '<span class="person-ini">' + esc(initials(x.navn)) + "</span>";
             return '<button type="button" class="person" data-person="' + i + '"><span class="person-img">' + pic + '</span><span class="person-txt"><strong>' + esc(x.navn) + '</strong><span class="mono">' + esc(x.rolle) + "</span></span></button>";
@@ -159,7 +159,8 @@
       var x = list(cur.p.personer)[i]; if (!x) return;
       var pic = x.billede ? imgTag(x.billede, x.billedeFokus) : '<div class="ph ph--ink"><span>' + esc(initials(x.navn)) + "</span></div>";
       dlg.innerHTML = shell(pic, tagHtml(x.rolle),
-        '<h2 id="modal-title">' + esc(x.navn) + '</h2><div class="modal-text">' + paras(x.bio) + "</div>" +
+        '<h2 id="modal-title">' + esc(x.navn) + '</h2><div class="modal-text">' + paras(x.bio) +
+          (x.url ? '<p><a class="link-arrow" href="' + esc(x.url) + '">' + esc(x.linkTekst || "Hjemmeside →") + "</a></p>" : "") + "</div>" +
         '<div class="modal-speaker"><span class="mono">' + (x.rolle === "Sessionvært" ? "Vært for" : "Session") + "</span><strong>" + esc(cur.p.titel) + "</strong></div>",
         '<button type="button" class="btn btn--ghost modal-back">← Tilbage til sessionen</button><a class="link-arrow" href="billetter.html">Køb billet →</a>');
       var c = dlg.querySelector(".modal-back"); if (c) c.focus();

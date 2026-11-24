@@ -47,17 +47,30 @@
   {
     "type": "Session",
     "titel": "AI for public relations og kommunikation",
-    "billede": "",
-    "billedeFokus": "",
-    "maerke": "AI + PR",
-    "beskrivelse": "Hvad kan kunstig intelligens allerede i dag i en kommunikationsafdeling, og hvor skal mennesket stadig sidde ved rattet?",
+    "billede": "/billeder/ai-for-public-relations.jpg",
+    "billedeFokus": "50% 30%",
+    "maerke": "",
+    "beskrivelse": "Stephen Waddington om, hvordan kommunikationsfaget tager AI i brug, så det styrker både arbejdet og fagets plads ved ledelsesbordet.",
     "mere": [
-      "Kunstig intelligens er rykket ind i kommunikationsafdelingerne. Den skriver udkast til pressemeddelelser, holder øje med medierne, foreslår vinkler og svarer på spørgsmål fra borgere og kunder. Men hvad virker i praksis, og hvad er stadig mest løfter?",
-      "Sessionen ser på, hvordan AI ændrer arbejdet med presse, interessenter og kriser, også når pressemeddelelsens første læser er en maskine, og troværdighed bliver det vigtigste, du har at tilbyde. Du går derfra med konkrete greb, du kan bruge mandag morgen."
+      "AI ændrer allerede, hvordan vi skriver, planlægger og måler kommunikation. Men det afgørende er ikke værktøjerne. Det er, om faget bruger dem til at blive en stærkere del af organisationens strategi og ledelse, eller ender som et produktionsled, maskinerne kan overtage.",
+      "Stephen Waddington, medredaktør af bogen AI for Public Relations, går bag om hypen med et praktisk bud på at tage AI i brug ansvarligt: fra indhold, planlægning og måling til governance, omdømme og synlighed i de AI-svar, modtagerne i stigende grad får deres viden fra."
     ],
-    "talereLabel": "Oplægsholdere",
-    "talere": "Annonceres snarest",
-    "personer": []
+    "talereLabel": "Oplægsholder",
+    "talere": "Stephen Waddington",
+    "personer": [
+      {
+        "navn": "Stephen Waddington",
+        "rolle": "Speaker",
+        "billede": "/billeder/stephen-waddington.jpg",
+        "billedeFokus": "30% 25%",
+        "bio": [
+          "Stephen Waddington er rådgiver hos Wadds Inc. og ph.d.-forsker ved Leeds Business School. Han hjælper organisationer og deres ledere med planlægning, strategiske beslutninger og eksekvering af kommunikation. Hans forskning undersøger, hvornår public relations fungerer som en ledelsesdisciplin, der bidrager til organisationens strategi og resultater.",
+          "Han er en anerkendt skribent og foredragsholder om ledelse og public relations. I 2026 var han medredaktør af AI for Public Relations: A How-to Guide for Implementation and Management (Kogan Page) sammen med Ben Verinder."
+        ],
+        "url": "https://wadds.co.uk/",
+        "linkTekst": "wadds.co.uk →"
+      }
+    ]
   },
   {
     "type": "Tema",

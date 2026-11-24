@@ -108,6 +108,14 @@ content:
             type: text
             list: true
             description: 'Ét felt pr. afsnit.'
+          - name: url
+            label: Hjemmeside
+            type: string
+            description: 'Valgfrit link, der vises under bioen, fx https://wadds.co.uk/'
+          - name: linkTekst
+            label: Linktekst
+            type: string
+            description: 'Fx "wadds.co.uk →". Tom = "Hjemmeside →".'
 
   - name: program
     label: Program
